@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specialization — Onlayn Ta'lim</title>
+    <meta name="description" content="Dasturlash, Data Science, Sun'iy intellekt va boshqa maxsus yo'nalishlarda chuqur ta'lim dasturlari." />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      body { font-family: 'Inter', sans-serif; }
+      .hero-bg {
+        background: radial-gradient(80% 60% at 10% 10%, rgba(59,130,246,.15) 0%, rgba(59,130,246,0) 60%),
+                    radial-gradient(60% 40% at 90% 20%, rgba(16,185,129,.15) 0%, rgba(16,185,129,0) 60%),
+                    linear-gradient(180deg, #0f172a 0%, #0b1220 100%);
+      }
+    </style>
+  </head>
+  <body class="bg-slate-950 text-slate-200">
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur border-b border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <a href="index.html" class="flex items-center gap-2">
+            <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-blue-500 text-white font-extrabold">M</span>
+            <span class="text-lg font-bold">Onlayn Ta'lim</span>
+          </a>
+          <nav class="hidden md:flex items-center gap-8 text-sm">
+            <a href="index.html#kurslar" class="hover:text-white">Kurslar</a>
+            <a href="index.html#yo'nalishlar" class="hover:text-white">Yo'nalishlar</a>
+            <a href="specialization.html" class="text-blue-400 font-semibold">Specialization</a>
+            <a href="index.html#afzalliklar" class="hover:text-white">Afzalliklar</a>
+          </nav>
+          <div class="flex items-center gap-2">
+            <a href="#" class="hidden sm:inline-flex px-3 py-2 rounded-xl border border-slate-700 hover:bg-slate-800">Kirish</a>
+            <a href="#" class="inline-flex px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-medium">Ro'yxatdan o'tish</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-bg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-20 text-center">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">Specialization dasturlari</h1>
+        <p class="mt-4 text-lg text-slate-300 max-w-2xl mx-auto">
+          Har bir yo'nalishda chuqur o‘quv dasturlari. Boshlovchidan professionalgacha bosqichma-bosqich.
+        </p>
+      </div>
+    </section>
+
+    <!-- Specialization list -->
+    <section class="py-16 border-t border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-10 text-center">Yo'nalishlar bo‘yicha specialization</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Card -->
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 overflow-hidden hover:border-slate-700">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1600&auto=format&fit=crop" class="h-40 w-full object-cover" alt="Frontend specialization">
+            <div class="p-6">
+              <h3 class="font-semibold text-white text-lg">Frontend Specialization</h3>
+              <p class="text-slate-400 text-sm mt-2">HTML, CSS, JavaScript’dan React va Vue’gacha bosqichma-bosqich.</p>
+              <div class="mt-4 flex justify-between items-center text-sm">
+                <span class="text-slate-400">4 ta kurs • 5 oy</span>
+                <a href="#" class="px-3 py-1 rounded-lg bg-blue-600 hover:bg-blue-500 text-white">Boshlash</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 overflow-hidden hover:border-slate-700">
+            <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop" class="h-40 w-full object-cover" alt="Backend specialization">
+            <div class="p-6">
+              <h3 class="font-semibold text-white text-lg">Backend Specialization</h3>
+              <p class="text-slate-400 text-sm mt-2">Python Django, FastAPI va Node.js asosida kuchli backend ko‘nikmalar.</p>
+              <div class="mt-4 flex justify-between items-center text-sm">
+                <span class="text-slate-400">5 ta kurs • 6 oy</span>
+                <a href="#" class="px-3 py-1 rounded-lg bg-blue-600 hover:bg-blue-500 text-white">Boshlash</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data & AI -->
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 overflow-hidden hover:border-slate-700">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop" class="h-40 w-full object-cover" alt="Data Science specialization">
+            <div class="p-6">
+              <h3 class="font-semibold text-white text-lg">Data & AI Specialization</h3>
+              <p class="text-slate-400 text-sm mt-2">Pandas, ML, DL, PyTorch va real Data Science loyihalar.</p>
+              <div class="mt-4 flex justify-between items-center text-sm">
+                <span class="text-slate-400">6 ta kurs • 7 oy</span>
+                <a href="#" class="px-3 py-1 rounded-lg bg-blue-600 hover:bg-blue-500 text-white">Boshlash</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Step-by-step learning -->
+    <section class="py-16 border-t border-slate-800">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6">O‘quv jarayoni</h2>
+        <div class="grid md:grid-cols-4 gap-6 text-left">
+          <div class="rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <div class="text-blue-400 font-extrabold text-2xl">1</div>
+            <p class="mt-2 text-slate-300">Asoslarni o‘rganish</p>
+          </div>
+          <div class="rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <div class="text-blue-400 font-extrabold text-2xl">2</div>
+            <p class="mt-2 text-slate-300">Amaliy loyihalar</p>
+          </div>
+          <div class="rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <div class="text-blue-400 font-extrabold text-2xl">3</div>
+            <p class="mt-2 text-slate-300">Portfolio tayyorlash</p>
+          </div>
+          <div class="rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <div class="text-blue-400 font-extrabold text-2xl">4</div>
+            <p class="mt-2 text-slate-300">Intervyu tayyorgarligi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 bg-slate-950">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-center">
+        <p class="text-slate-400 text-sm">© <span id="yil"></span> Onlayn Ta'lim. Barcha huquqlar himoyalangan.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('yil').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
