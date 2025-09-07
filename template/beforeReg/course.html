@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurslar — Onlayn Ta'lim</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-200">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 bg-slate-950/80 border-b border-slate-800 backdrop-blur">
+    <div class="max-w-7xl mx-auto flex items-center justify-between h-16 px-6">
+      <a href="home" class="flex items-center gap-2 font-bold">
+        <span class="h-8 w-8 flex items-center justify-center rounded-xl bg-blue-600 text-white">M</span>
+        Onlayn Ta'lim
+      </a>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="course" class="text-blue-400">Kurslar</a>
+        <a href="yonalishlar.html">Yo'nalishlar</a>
+        <a href="afzalliklar.html">Afzalliklar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Kurslar ro‘yxati -->
+  <main class="max-w-7xl mx-auto px-6 py-12">
+    <h1 class="text-3xl font-bold mb-6">Barcha kurslar</h1>
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- Kurs -->
+      <article class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop" class="h-40 w-full object-cover" />
+        <div class="p-5">
+          <h2 class="font-semibold">Python Dasturlash</h2>
+          <p class="text-sm text-slate-400 mt-1">Boshlovchilar uchun 0 dan.</p>
+        </div>
+      </article>
+
+      <article class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1537432376769-00a4c1acc743?q=80&w=1200&auto=format&fit=crop" class="h-40 w-full object-cover" />
+        <div class="p-5">
+          <h2 class="font-semibold">Django + React</h2>
+          <p class="text-sm text-slate-400 mt-1">Full-stack web dasturlash.</p>
+        </div>
+      </article>
+
+      <article class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format&fit=crop" class="h-40 w-full object-cover" />
+        <div class="p-5">
+          <h2 class="font-semibold">Sun’iy Intellekt</h2>
+          <p class="text-sm text-slate-400 mt-1">ML asoslari va amaliy loyihalar.</p>
+        </div>
+      </article>
+    </div>
+  </main>
+
+</body>
+</html>
